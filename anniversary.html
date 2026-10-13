@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#ffe4ee">
+    <meta name="description" content="A special anniversary website made with love.">
+
+    <title>Happy Anniversary, My Love ❤️</title>
+
+    <link rel="stylesheet" href="ani.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Floating hearts -->
+    <div class="floating-hearts" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#home" class="logo">Our Love ❤️</a>
+
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navLinks">
+            ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#memories">Memories</a>
+            <a href="#letter">Love Letter</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Hero section -->
+        <section class="hero section" id="home">
+
+            <div class="hero-content">
+                <p class="eyebrow">A LITTLE WEBSITE, A LOT OF LOVE</p>
+
+                <h1>
+                    Happy Anniversary,
+                    <span id="girlfriendName">My Love</span>!
+                </h1>
+
+                <p class="hero-description">
+                    Har wo lamha jo tumhare sath gujara hai wo har ek pal bahut khubsurat or yadgar lamha hai.
+                    Aur tumhe pta h You are my favorite person, my happiest place,
+                    and my sweetest forever baby💕.
+                </p>
+
+                <div class="hero-heart" aria-hidden="true">❤️</div>
+
+                <p class="forever-text">
+                    You and me, today and always.
+                </p>
+
+                <a href="#letter" class="primary-button">
+                    A Letter for You 💌
+                </a>
+            </div>
+
+            <div class="hero-image-wrap">
+                <!-- Replace couple.jpg with your own photo -->
+                <img
+                    src="us.jpeg"
+                    alt="A special memory of us"
+                    class="hero-image"
+                    onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=900&q=85';"
+                >
+
+                <div class="image-caption">
+                    <span>My favorite person</span>
+                    <span>♡ Forever ♡</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Relationship counter -->
+        <section class="counter-section section">
+            <p class="eyebrow">OUR JOURNEY TOGETHER</p>
+
+            <h2>Every day with you is special 💗</h2>
+
+            <div class="counter-card">
+                <div class="counter-number">
+                    <span id="days">365</span>
+                    <small>Days</small>
+                </div>
+
+                <div class="counter-number">
+                    <span id="hours">01</span>
+                    <small>Hours</small>
+                </div>
+
+                <div class="counter-number">
+                    <span id="minutes">30</span>
+                    <small>Minutes</small>
+                </div>
+
+                <div class="counter-number">
+                    <span id="seconds">30</span>
+                    <small>Seconds</small>
+                </div>
+            </div>
+
+            <p class="counter-note">
+                And I'm still falling for you every day. ❤️
+            </p>
+        </section>
+
+        <!-- Memories gallery -->
+        <section class="memories section" id="memories">
+
+            <p class="eyebrow">LITTLE MOMENTS, BIG LOVE</p>
+
+            <h2>Our Beautiful Memories 📸</h2>
+
+            <p class="section-description">
+                If I could keep one thing forever, it would be
+                every moment I have spent with you.
+            </p>
+
+            <div class="gallery">
+
+                <article class="memory-card">
+                    <img
+                        src="You.jpeg"
+                        alt="Our favorite memory together"
+                        loading="lazy"
+                        onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=700&q=80';"
+                    >
+                    <div class="memory-caption">
+                        <h3>Our moments 💕</h3>
+                        <p>The start of something beautiful.</p>
+                    </div>
+                </article>
+
+                <article class="memory-card">
+                    <img
+                        src="me.jpeg"
+                        alt="A happy memory"
+                        loading="lazy"
+                        onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=700&q=80';"
+                    >
+                    <div class="memory-caption">
+                        <h3>Always TOGETHER 🌸</h3>
+                        <p>My favorite view in the world.</p>
+                    </div>
+                </article>
+
+                <article class="memory-card">
+                    <img
+                        src="download.png"
+                        alt="A cherished moment"
+                        loading="lazy"
+                        onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=700&q=80';"
+                    >
+                    <div class="memory-caption">
+                        <h3>Our Happiness 💖</h3>
+                        <p>More memories, more love.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Love letter -->
+        <section class="letter-section section" id="letter">
+
+            <div class="letter-card">
+
+                <div class="envelope-icon">💌</div>
+
+                <p class="eyebrow">SOMETHING FROM MY HEART</p>
+
+                <h2>A Little Letter for You</h2>
+
+                <p class="letter-intro">
+                    There are some things I want you to know...My sweetest love 💗<br>
+
+                    
+                        Happy anniversary to the girl jisane meri duniya 
+                        ko or behtar bnaya. You have brought so much
+                        happiness, warmth, and meaning into my life.
+                        Even an ordinary day feels special when I
+                        get to share it with you.
+                    
+
+                    
+                        Thank you for your smiles, your kindness,
+                        our little conversations, and every memory
+                        we have made. I love the little things about
+                        you just as much as the big things.
+                    
+
+                    
+                        I cannot promise that every day will be
+                        perfect, but I promise to keep learning,
+                        listening, caring, and making an effort.
+                        I want us to keep growing together and
+                        celebrating all the beautiful moments ahead.
+                    
+
+                    
+                        If I had to choose again, I would still
+                        want to meet you, know you, and make more
+                        memories with you.
+                    </p>
+
+                    <p class="letter-signature">
+                        I love you, today and always. ❤️
+                        <br>
+                        Forever yours,
+                        <br>
+                        <strong id="yourName">Your Love</strong>
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Made with all my love, just for you ❤️</p>
+        <p>Our story is my favorite story. ♡</p>
+    </footer>
+
+</body>
+</html>
